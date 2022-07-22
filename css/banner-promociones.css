@@ -1,0 +1,42 @@
+.section__banner {
+  background-image: url("../assets/banner-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 22rem;
+  justify-content: end;
+  width: 100%;
+}
+
+.section__banner__container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.section__banner__titulo {
+  color: #fff;
+  font-size: 3.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.section__banner__subtitulo {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section__banner__btn {
+  background-color: #2a7ae4;
+  border-radius: 0.625rem;
+  color: #fff;
+  height: 3rem;
+  margin-bottom: 2rem;
+  width: 10rem;
+  cursor: pointer;
+}
+
+.section__banner__btn:hover{
+  background-color: #162f50;
+}

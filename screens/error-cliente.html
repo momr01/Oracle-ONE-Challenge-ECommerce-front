@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/styles-grales.css" />
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/search.css">
+    <link rel="stylesheet" href="../css/error-success.css">
+    <link rel="stylesheet" href="../css/form-contacto.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/media-queries.css">
+    <title>E-Commerce-Error</title>
+  </head>
+  <body>
+    <header>
+      <section class="section__titulo">
+        <article class="section__titulo__container">
+          <div class="section__titulo__img__container">
+            <a href="../index.html"
+              ><img src="../assets/Logo.png" alt="logo_aluraGeek"
+            /></a>
+          </div>
+          <div class="section__titulo__form__container">
+            <form class="section__titulo__form__form">
+              <div class="section__titulo__form__input__container">
+                <input
+                  class="section__titulo__form__input__ingreso"
+                  type="text"
+                  placeholder="Qué desea buscar?"
+                  id="search__input"
+                />
+                <div class="resultados__busqueda__container__disabled">
+                  <div>
+                    <h3 class="cuadro__titulo"></h3>
+                    <div class="cards__container__search"></div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </article>
+      </section>
+    </header>
+    <main>
+      <section class="section__ingreso">
+        <div class="error__success__container">
+          <h2 class="error__success__titulo">Error</h2>
+          <div class="error__success__img__container">
+            <img
+              src="../assets/error.svg"
+              alt="error"
+              class="error__success__img"
+            />
+          </div>
+          <div class="error__success__btn__container">
+            <a href="/index.html"
+              ><button class="error__success__btn">
+                Volver al inicio
+              </button></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="section__contacto">
+      <div class="section__contacto__container">
+        <div class="section__contacto__logo">
+          <a href="../index.html"><img src="/assets/Logo.png" alt="" /></a>
+        </div>
+        <div class="section__contacto__nav">
+          <nav class="section__contacto__nav__container">
+            <ul class="section__contacto__nav__lista">
+              <li class="section__contacto__nav__item">Quienes somos</li>
+              <li class="section__contacto__nav__item">
+                Política de privacidad
+              </li>
+              <li class="section__contacto__nav__item">
+                Programa de fidelidad
+              </li>
+              <li class="section__contacto__nav__item">Nuestras Tiendas</li>
+              <li class="section__contacto__nav__item">
+                Quiero ser franquiciado
+              </li>
+              <li class="section__contacto__nav__item">Anuncie aquí</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="section__contacto__form__container">
+          <h3 class="section__contacto__form__titulo">Hable con nosotros</h3>
+          <form method="POST" class="section__contacto__form">
+            <input
+              type="text"
+              placeholder="Nombre"
+              class="section__contacto__form__input contacto__input"
+              data-contacto="nombre"
+            />
+            <div class="mensaje__error__contacto"></div>
+            <textarea
+              name="mensaje"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Escribe tu mensaje"
+              class="section__contacto__form__textarea contacto__input"
+              data-contacto="mensaje"
+            ></textarea>
+            <div class="mensaje__error__contacto"></div>
+            <button type="submit" class="section__contacto__form__btn">
+              Enviar mensaje
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="section__footer">
+      <div class="section__footer__container">
+        <h3 class="section__footer__texto">
+          Desarrollado por Maximiliano Montaña
+        </h3>
+
+        <p class="section__footer__year">2022</p>
+      </div>
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="/controllers/search.controller.js"></script>
+    <script type="module" src="/controllers/contacto.controller.js"></script>
+  </body>
+</html>

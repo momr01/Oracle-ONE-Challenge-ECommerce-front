@@ -1,0 +1,45 @@
+.section__ingreso {
+  background-color: #f5f5f5;
+}
+
+.error__success__container {
+  margin: 0 auto;
+  padding: 3rem 0;
+  width: 80%;
+}
+
+.error__success__titulo {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.error__success__img__container {
+  margin: 0 auto;
+  width: 30%;
+}
+
+.error__success__img {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.error__success__btn__container {
+  height: 2.5rem;
+  margin: 0 auto;
+  width: 30%;
+}
+
+.error__success__btn {
+  background-color: #2a7ae4;
+  border: none;
+  border-radius: 1rem;
+  color: #fff;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+.error__success__btn:hover {
+  background-color: #162f50;
+}

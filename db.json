@@ -1,0 +1,137 @@
+{
+  "productos": [
+    {
+      "id": "15",
+      "url": "assets/data/series-heartstopper.png",
+      "categoria": "TV-Series",
+      "nombre": "Heartstopper",
+      "precio": "1051",
+      "descripcion": "Dos adolescentes británicos, Nick Nelson y Charlie Spring, estudian en una escuela primaria exclusiva para varones. Charlie, un pensador demasiado nervioso y abiertamente gay, y Nick, un jugador de rugby alegre y de buen corazón, un día se sientan juntos en clase. La amistad florece rápidamente, pero ¿podría haber algo más...? Basada en la novela gráfica de Alice Oseman.",
+      "promocion": true
+    },
+    {
+      "url": "assets/data/movies-charlies_angels.png",
+      "categoria": "Movies",
+      "nombre": "Charlie's Angels",
+      "precio": "2000",
+      "descripcion": "Los ángeles de Charlie siempre han proporcionado servicios de seguridad e investigación a clientes privados, y ahora la agencia Townsend se ha expandido internacionalmente con las mujeres más inteligentes, valientes y mejor entrenadas a lo largo y ancho del planeta – varios equipos de ángeles guiados por otros tantos Bosleys llevando a cabo los trabajos más duros por todo el mundo. Cuando un joven ingeniero de sistemas llama la atención sobre una peligrosa tecnología, los ángeles son llamados a la acción, arriesgando sus vidas por protegernos a todos.",
+      "id": "109",
+      "promocion": true
+    },
+    {
+      "url": "assets/data/movies-happiest_season.png",
+      "categoria": "Movies",
+      "nombre": "Happiest Season",
+      "precio": "2500",
+      "descripcion": "Una mujer que planea pedirle matrimonio a su novia durante las vacaciones anuales con la familia descubre que los conservadores padres de su pareja aún desconocen la orientación sexual de su hija.",
+      "id": "25464",
+      "promocion": true
+    },
+    {
+      "url": "assets/data/movies-thor_4.png",
+      "categoria": "Movies",
+      "nombre": "Thor: Love and Thunder",
+      "precio": "2000",
+      "descripcion": "Cuarta película sobre \"Thor\" del MCU, en la que el Dios del trueno contará con Lady Thor como acompañante, personaje que interpretará Natalie Portman.",
+      "id": "145",
+      "promocion": false
+    },
+    {
+      "url": "assets/data/series-ms_marvel.png",
+      "categoria": "TV-Series",
+      "nombre": "Ms. Marvel",
+      "precio": "1544",
+      "descripcion": "Una gran estudiante, ávida jugadora y voraz escritora de fan-fic, Kamala Khan tiene una afinidad especial por los superhéroes, en particular por la Capitana Marvel. Sin embargo, lucha por encajar en casa y en la escuela, es decir, hasta que obtiene superpoderes como los héroes que siempre ha admirado. La vida es más fácil con superpoderes, ¿verdad?",
+      "id": "ae16f68d-cccb-4d89-8d14-ef52b64725a5",
+      "promocion": true
+    },
+    {
+      "url": "/assets/data/series-euphoria.png",
+      "categoria": "TV-Series",
+      "nombre": "Euphoria",
+      "precio": "3000",
+      "descripcion": "Una reflexión sobre la adolescencia a través de un grupo de estudiantes de instituto que tienen que hacer frente a temas recurrentes de su edad, como la droga, el sexo y la violencia.",
+      "id": "c68e8ab5-f327-4cdb-9023-2ed0f74c41e2"
+    },
+    {
+      "url": "/assets/data/music-i_am_sasha_fierce.png",
+      "categoria": "Music",
+      "nombre": "I AM... SASHA FIERCE",
+      "precio": "5000",
+      "descripcion": "Deluxe two CD pressing containing five bonus tracks. One of 2008's most hotly anticipated album releases, I Am..Sasha Fierce marks the artist's first new studio collection since the Grammy-winning multi-platinum-selling B'Day debuted at #1 on charts around the world shortly after its international release on September 4, 2006. With all songs co-written and co-produced by Beyonc, the artist's third studio album is her most personal, reflective and revelatory collection to-date. 16 tracks.",
+      "id": "25bd1bf1-cbb1-46a7-b48e-e34c223a7d9a",
+      "promocion": true
+    },
+    {
+      "url": "/assets/data/series-mare_of_easttown.png",
+      "categoria": "TV-Series",
+      "nombre": "Mare of Easttown",
+      "precio": "4000",
+      "descripcion": "Una detective de un pequeño pueblo de Pensilvania investiga un asesinato local mientras trata de evitar que su vida se desmorone.",
+      "id": "5c1f4432-f853-4c83-a9c9-b9e5f555892a"
+    },
+    {
+      "url": "/assets/data/music-beyonce.png",
+      "categoria": "Music",
+      "nombre": "Beyoncé",
+      "precio": "3000",
+      "descripcion": "Beyoncé Platinum Edition Box Set is a 2 CD/2 DVD limited edition package that includes two new songs, \"7/11\" and \"Ring Off,\" plus four new and unreleased remixes with some superstar collaborators. The original, critically acclaimed self-titled visual album, featuring 14 songs and 17 videos, is also included.\nThe special edition box set features a live performance DVD that chronicles the year-long 'Mrs. Carter Show World Tour,' a mini version of the official 2015 Beyoncé calendar, and more.\n\nThe 'Beyoncé' Platinum Edition Box Set includes:\nMORE audio CD with two new songs and four unreleased remixes with collaborations from Kanye West, Nicki Minaj, Mr. Vegas and Pharrell Williams.\n\"LIVE\" DVD featuring 10 live performances from the 'Mrs. Carter Show World Tour' with artist commentary and an accompanying photo booklet.\n'BEYONCE' original audio CD featuring 14 songs and accompanying photo booklet.\n'BEYONCE' original DVD featuring 17 music videos\nThe official 2015 Beyoncé mini calendar",
+      "id": "675944e3-992f-4e41-9cc3-10fe38be4d72"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "nombre": "TV-Series"
+    },
+    {
+      "id": "2",
+      "nombre": "Movies"
+    },
+    {
+      "id": "3",
+      "nombre": "Music"
+    }
+  ],
+  "mensajes": [
+    {
+      "id": "49745940-4142-4057-8067-82b0d6c090e3",
+      "nombre": "Maxi",
+      "mensaje": "holis"
+    },
+    {
+      "id": "857adc94-77f9-4f98-9345-1689af9fd1ee",
+      "nombre": "nick",
+      "mensaje": "heartstopper"
+    },
+    {
+      "id": "6fc60cbc-d2d5-4bee-af13-4d591059e417",
+      "nombre": "miriam",
+      "mensaje": "nueva"
+    },
+    {
+      "id": "cb1ebc7b-0820-4379-9739-4fa33d8eece6",
+      "nombre": "g",
+      "mensaje": "h"
+    },
+    {
+      "id": "74a83e3a-254d-4ba2-b0a5-c05a96f2b4db",
+      "nombre": "h",
+      "mensaje": "nnnnnnn"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "email": "correo@correo.com",
+      "password": "aaaaa11/",
+      "rol": "administrador"
+    },
+    {
+      "id": "2",
+      "email": "cliente@cliente.com",
+      "password": "bbbbb22/",
+      "rol": "cliente"
+    }
+  ]
+}

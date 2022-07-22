@@ -1,0 +1,98 @@
+.section__contacto {
+  background-color: #eaf2fd;
+  padding: 4rem 0;
+  width: 100%;
+}
+
+.section__contacto__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.section__contacto__logo {
+  width: 20%;
+}
+
+.section__contacto__nav {
+  width: 20%;
+}
+
+.section__contacto__nav__lista {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__contacto__nav__item {
+  font-size: 1.3rem;
+  margin-bottom: 1.3rem;
+  cursor: pointer;
+}
+
+.section__contacto__nav__item:hover {
+  color: #2a7ae4;
+}
+.section__contacto__form__container {
+  width: 45%;
+}
+
+.section__contacto__form__titulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.section__contacto__form__input {
+  border: none;
+  border-radius: 0.625rem;
+  height: 3.5rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.section__contacto__form__input:focus,
+.section__contacto__form__textarea:focus {
+  border: none;
+  outline: none;
+}
+
+.section__contacto__form__textarea {
+  border: none;
+  border-radius: 0.625rem;
+  height: 5.125rem;
+  margin-bottom: 1rem;
+  padding: 1rem 1rem;
+  resize: none;
+  width: 100%;
+}
+
+.section__contacto__form__btn {
+  background-color: #2a7ae4;
+  border-radius: 0.625rem;
+  color: #fff;
+  height: 3rem;
+  margin-bottom: 2rem;
+  width: 10rem;
+  cursor: pointer;
+}
+
+.section__contacto__form__btn:hover {
+  background-color: #162f50;
+}
+
+.input__border__red {
+  border: 0.2rem solid red !important;
+}
+
+.input__border__green {
+  border: 0.2rem solid green !important;
+}
+
+.mensaje__error__contacto {
+  margin-bottom: 1rem;
+  color: red;
+  font-weight: bold;
+}

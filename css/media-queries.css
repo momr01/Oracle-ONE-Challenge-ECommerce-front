@@ -1,0 +1,380 @@
+/* media queries */
+
+@media (max-width: 489px) {
+  /* header */
+  .section__titulo__container {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .section__titulo__img__container {
+    order: 1;
+    width: 45%;
+  }
+
+  .section__titulo__img__container img {
+    width: 100%;
+  }
+
+  .section__titulo__form__container {
+    order: 3;
+    width: 100%;
+  }
+
+  .section__titulo__form__input__container{
+    margin: 0.5rem auto;
+    width: 60%;
+  }
+
+  .resultados__busqueda__container{
+    left: 0;
+    top: 8rem;
+  }
+
+  .section__titulo__btn__container {
+    order: 2;
+    width: 30%;
+  }
+
+  .section__titulo__btn {
+    width: 100%;
+  }
+
+  .section__titulo__form__search__container {
+    display: block;
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .section__titulo__form__search__container img {
+    width: 100%;
+  }
+
+  /* banner */
+
+  .section__banner__container {
+    width: 90%;
+  }
+
+  .section__banner__titulo {
+    font-size: 2rem;
+  }
+
+  .section__banner__subtitulo {
+    font-size: 1.3rem;
+  }
+
+  /* productos index */
+
+  .section__productos {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .section__productos__cards {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .section__productos__cards__card {
+    width: 40%;
+  }
+
+  .section__productos__cards__card img {
+    width: 100%;
+  }
+
+  .section__contacto__container {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .section__contacto__logo,
+  .section__contacto__nav__lista {
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .section__contacto__nav {
+    width: 100%;
+  }
+
+  .section__contacto__nav__item {
+    font-size: 1rem;
+  }
+
+  .section__contacto__form__container {
+    width: 100%;
+  }
+
+  .section__contacto__form {
+    width: 100%;
+  }
+
+  .section__contacto__form__input,
+  .section__contacto__form__textarea {
+    padding: 0;
+    width: 100%;
+    outline: none;
+  }
+
+  .section__contacto__form__textarea {
+    padding-top: 1rem;
+  }
+
+  /* #btn__cerrar__sesion{
+    position: absolute;
+    top: 500px;
+  }  */
+
+  /* .section__titulo__btn__container{
+    display: flex;
+    flex-direction: column;
+    width: 6rem;
+    
+  }
+
+  .section__titulo__btn__container button{
+    font-size: 0.8rem;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+
+  } */
+
+  /* producto.html */
+  .section__each__product__container {
+    width: 90%;
+  }
+
+  .section__product__data__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section__product__data__img {
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+
+  .section__product__data__texto {
+    width: 100%;
+  }
+
+  .section__product__data__texto h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .section__product__data__texto h5 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .section__product__data__texto p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .section__product__similares__titulo {
+    font-size: 1.3rem;
+  }
+
+  /* login */
+
+  .section__form__container {
+    width: 90%;
+  }
+
+  .section__form {
+    width: 90%;
+  }
+
+  /* productos administracion */
+  .section__all__productos__container {
+    width: 90%;
+  }
+
+  .section__all__productos__titulos h3 {
+    font-size: 1rem;
+  }
+
+  .section__all__productos__cards__card__container {
+    box-shadow: 1rem 1rem 1rem #676666;
+    width: 40%;
+  }
+
+  /* error - success */
+
+  .error__success__container {
+    width: 90%;
+  }
+
+  .error__success__img__container {
+    width: 50%;
+  }
+
+  .error__success__btn__container {
+    width: 60%;
+  }
+
+  /* borrar producto */
+  .section__eliminar__container {
+    width: 90%;
+  }
+
+  .section__eliminar__icon__container {
+    width: 50%;
+  }
+
+  .section__eliminar__titulo {
+    font-size: 2rem;
+  }
+
+  .section__eliminar__text {
+    font-size: 1rem;
+  }
+
+  .section__eliminar__text__pregunta {
+    font-size: 1rem;
+  }
+
+  .btn {
+    display: block;
+    margin: 1rem auto;
+  }
+}
+
+@media (min-width: 490px) and (max-width: 800px) {
+  .section__titulo__container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  .section__titulo__img__container {
+    order: 1;
+    padding: 0 auto;
+    width: 20%;
+  }
+
+  .section__titulo__img__container img {
+    width: 100%;
+  }
+
+  .section__titulo__form__container {
+    /*border: 1px solid green;*/
+    padding: 1rem 0;
+    text-align: center;
+    order: 2;
+    width: 40%;
+  }
+
+  .resultados__busqueda__container{
+    left: 8rem;
+  }
+
+  .section__titulo__form__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section__titulo__form__form button {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .section__titulo__btn__container{
+    order: 3;
+    width: 20%;
+  }
+
+  .section__titulo__form__input__container{
+    width: 90%;
+  }
+  .section__titulo__btn {
+    width: 100%;
+  }
+
+  .section__titulo__btn button {
+    height: 2rem;
+    margin: 0;
+  }
+  .section__productos {
+    width: 80%;
+  }
+
+  .section__productos__cards{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .section__productos__cards__card {
+    width: 30%;
+  }
+
+  .section__productos__cards__card img {
+    width: 100%;
+  }
+
+  .section__contacto__container {
+    flex-wrap: wrap;
+  }
+
+  .section__contacto__logo {
+    width: 50%;
+  }
+
+  .section__contacto__nav {
+    width: 50%;
+  }
+
+  .section__contacto__form__container {
+    width: 100%;
+  }
+
+  /* producto.html */
+
+  .section__product__data__img {
+    width: 40%;
+  }
+
+  .section__product__data__texto {
+    width: 55%;
+  }
+
+  .section__product__data__texto h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .section__product__data__texto h5 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .section__product__data__texto p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .section__product__similares__titulo {
+    font-size: 1.3rem;
+  }
+
+  /* productos administracion */
+  .section__all__productos__container {
+    width: 90%;
+  }
+
+  .section__all__productos__titulos h3 {
+    font-size: 1rem;
+  }
+
+  .section__all__productos__cards__card__container {
+    box-shadow: 1rem 1rem 1rem #676666;
+    width: 26%;
+  }
+
+}

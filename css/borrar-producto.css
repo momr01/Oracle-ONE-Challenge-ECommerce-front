@@ -1,0 +1,73 @@
+.section__eliminar {
+    background-color: #f5f5f5;
+    padding: 5rem 0;
+    width: 100%;
+}
+.section__eliminar__container{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.section__eliminar__icon__container{
+    margin: 0 auto;
+    width: 30%;
+}
+
+.section__eliminar__icon__container img{
+    width: 100%;
+}
+
+.section__eliminar__titulo{
+    color: red;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.section__eliminar__text{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.section__eliminar__text__pregunta{
+    color: red;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.section__eliminar__nombre__producto,
+.section__eliminar__id__producto {
+    color: #2a7ae4;
+    text-decoration: underline;
+}
+
+.btn{
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    height: 2rem;
+    margin: 0 1rem;
+    width: 10rem;
+
+}
+
+#btn__eliminar__producto{
+    background-color: red;
+}
+
+#btn__eliminar__producto:hover{
+    background-color: rgb(78, 19, 19);
+}
+
+#btn__cancelar__producto{
+    background-color: #2a7ae4;
+}
+
+#btn__cancelar__producto:hover{
+    background-color: #162f50;
+}
+
